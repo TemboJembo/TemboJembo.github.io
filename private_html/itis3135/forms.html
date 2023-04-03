@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <title>ITIS 3135-Thomas Benfield's Terrifying Baboon-Forms</title>
+    <link href="styles/default.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--https://coolors.co/2c6e49-4c956c-e5ffde-1b1b1e-654c4f -->
+</head>
+
+<body>
+
+    <header>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <h1>
+            Thomas Benfield's Terrifying Baboon
+        </h1>
+        <nav>
+            <a href="index.html">Home |</a>
+            <a href="introduction.html">| Introduction |</a>
+            <a href="contract.html">| Contract |</a>
+            <a href="tables.html">| Tables |</a>
+            <a href="forms.html">| Forms |</a>
+            <a href="webeval.html">| Website Evaluation |</a>
+            <a href="polygons.html">| Polygons |</a>
+            <a href="calculator_try.html">| Calculator Try |</a>
+            <a href="calculator.html">| Calculator |</a>
+            <a href="arrays.html">| Arrays |</a>
+            <a href="shlideshow.html">| SlideShow |</a>
+            <a href="project1.html">| Project |</a>
+        </nav>
+        <nav>
+            <a href="stuff/3PIC W@BSITE.htm">Bad Site |</a>
+            <a href="accesibility.html">| Accesibility |</a>
+            <a href="hobby/index.html">| Hobby Site</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Activity #3 - HTML Form</h2>
+        <form action="#">
+
+            <h3>Give us some Information about yourself</h3>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" value = "John Smith"required><br>
+            <label for="phone">Phone Number: </label><br>
+            <input type="number" id="phone" value="9999999999" maxlength="10" required><br>
+            <label for="email">Email Address:</label><br>
+            <input type="text" id="email" value="jsmith@gmail.com" required><br>
+
+            <h3>indicate your status</h3>
+            <input type="checkbox" id="software" name="software" value="soft">
+            <label for="software"> I need software services</label><br>
+            <input type="checkbox" id="webDesign" name="webDesign" value="web">
+            <label for="webDesign"> I need web design services</label><br>
+            <input type="checkbox" id="unsure" name="unsure" value="dunno">
+            <label for="unsure"> I am not sure what kind of service I need</label><br>
+
+            <h3>What kind of client are you?</h3>
+            <input type="radio" id="flavor1" name="flavor" value="Sweet">
+            <label for="flavor1">Sweet</label><br>
+            <input type="radio" id="flavor2" name="flavor" value="Spicy">
+            <label for="flavor2">Spicy</label><br>  
+            <input type="radio" id="flavor3" name="flavor" value="Sour">
+            <label for="flavor3">Sour</label><br>
+
+            <h3>Please Select a Payment Option</h3>
+            <select name="payment" id="payment" required>
+                <option value="goAhead">Select One</option>
+                <option value="card1">Credit Card</option>
+                <option value="card2">Debit Card</option>
+                <option value="online">PayPal</option>
+                <option value="money">Check</option>
+            </select><br><br><br>
+            <label for="oopsy">For When You Mess The Form Up:</label><br>
+            <input type="reset" id="oopsy">
+            <br><br>
+            <label for="done">If You Would Rather Submit:</label><br>
+            <input type="submit" id="done">
+            <br><br>
+            <button type="button" id="jfc">help</button>
+
+        </form>
+    </main>
+    <footer>
+        <a href="https://webpages.charlotte.edu/tbenfie5/">CLT Website |</a><a href="https://www.linkedin.com/in/thomas-benfield-1b6293222/">| Linkedin |</a><a href="https://www.codecademy.com/profiles/TemboJembo">| CodeAcademy |</a><a href="https://www.freecodecamp.org/TemboJembo">| FreeCodeCamp |</a><a href="https://tembojembo.github.io/">| Github Course Page |</a><a href="https://tembojembo.github.io/">| Github Pages |</a><a href="https://github.com/TemboJembo">| Github</a>
+        <br><br>
+        Site Designed by <a href="benfieldsoftware.com/">Thomas Benfield of Terrifying Baboon</a> &copy;2023
+        <br>
+        <br>
+        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
+            <img style="border:0;width:88px;height:31px"
+            src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png"
+            alt="Validate webpage HTML!">
+        </a>
+    
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" />
+        </a>
+    </footer>
+</body>
+
+</html>

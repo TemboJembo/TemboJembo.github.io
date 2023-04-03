@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <title>ITIS 3135-Thomas Benfield's Terrifying Baboon-Tables</title>
+    <link href="styles/default.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--https://coolors.co/2c6e49-4c956c-e5ffde-1b1b1e-654c4f -->
+</head>
+
+<body>
+
+    <header>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <h1>
+            Thomas Benfield's Terrifying Baboon
+        </h1>
+        <nav>
+            <a href="index.html">Home |</a>
+            <a href="introduction.html">| Introduction |</a>
+            <a href="contract.html">| Contract |</a>
+            <a href="tables.html">| Tables |</a>
+            <a href="forms.html">| Forms |</a>
+            <a href="webeval.html">| Website Evaluation |</a>
+            <a href="polygons.html">| Polygons |</a>
+            <a href="calculator_try.html">| Calculator Try |</a>
+            <a href="calculator.html">| Calculator |</a>
+            <a href="arrays.html">| Arrays |</a>
+            <a href="shlideshow.html">| SlideShow |</a>
+            <a href="project1.html">| Project |</a>
+        </nav>
+        <nav>
+            <a href="stuff/3PIC W@BSITE.htm">Bad Site |</a>
+            <a href="accesibility.html">| Accesibility |</a>
+            <a href="hobby/index.html">| Hobby Site</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Activity #2 - HTML Tables</h2>
+        <style>
+            table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table tr:nth-child(even){
+            background-color: #BEDCFE;
+        }
+        table tr:nth-child(odd){
+            background-color: #85BDA6;
+        }
+        table tr:nth-child(1){
+            background-color: #3E885B;
+        }
+        </style>
+        <h3>My Tabular Data</h3>
+        <ol>
+            <li>Liam Shank, lshank@gmail.com, 25</li>
+            <li>Hayden Beans, hbeans@yahoo.com, 12</li>
+            <li>Alex Collegegoer, acollej@uncc.edu, 5</li>
+            <li>Ryan Koi, rkoi@gmail.com, 13</li>
+            <li>Nic Seafarer, seafarer_87@yahoo.com, 37</li>
+            <li>Wyatt Nancy, nancywyatt@gmail.com, 2</li>
+            <li>Kaleel Burke, kburke@gmail.com, 48</li>
+        </ol>
+        <h3>Employee Data in Simple Table</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Years of Service</th>
+            </tr>
+            <tr>
+                <td>Liam Shank</td>
+                <td>lshank@gmail.com</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Hayden Beans</td>
+                <td>hbeans@yahoo.com</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Alex Collegegoer</td>
+                <td>acollej@uncc.edu</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Ryan Koi</td>
+                <td>rkoi@gmail.com</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>Nic Seafarer</td>
+                <td>seafarer_87@yahoo.com</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>Wyatt Nancy</td>
+                <td>nancywyatt@gmail.com</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Kaleel Burke</td>
+                <td>kburke@gmail.com</td>
+                <td>48</td>
+            </tr>
+        </table>
+        <h3>Employee Data in Complex Table</h3>
+        <figure>
+            <figcaption>Employee Information</figcaption>
+        <table>
+            <tr>
+                <th>position</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Years of Service</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td rowspan = "3">Manager</td>
+                <td>Liam Shank</td>
+                <td>lshank@gmail.com</td>
+                <td>25</td>
+                <td>$1,000,000</td>
+            </tr>
+            <tr>
+                <td>Hayden Beans</td>
+                <td>hbeans@yahoo.com</td>
+                <td>12</td>
+                <td>$1,250,000</td>
+            </tr>
+            <tr>
+                <td>Alex Collegegoer</td>
+                <td>acollej@uncc.edu</td>
+                <td>5</td>
+                <td>$1,500,000</td>
+            </tr>
+            <tr>
+                <td rowspan = "2">Worker Fellas</td>
+                <td>Ryan Koi</td>
+                <td>rkoi@gmail.com</td>
+                <td>13</td>
+                <td>$75,000</td>
+            </tr>
+            <tr>
+                <td>Nic Seafarer</td>
+                <td>seafarer_87@yahoo.com</td>
+                <td>37</td>
+                <td>$50,000</td>
+            </tr>
+            <tr>
+                <td rowspan = "2">Peons</td>
+                <td>Wyatt Nancy</td>
+                <td>nancywyatt@gmail.com</td>
+                <td>2</td>
+                <td>$20,000</td>
+            </tr>
+            <tr>
+                <td>Kaleel Burke</td>
+                <td>kburke@gmail.com</td>
+                <td>48</td>
+                <td>$85,000</td>
+            </tr>
+            <tr>
+                <th colspan="3">Total Years of Service</th>
+                <td>142</td>
+                <td>$3,980,000</td>
+            </tr>
+        </table>
+        </figure>
+    </main>
+    <footer>
+        <a href="https://webpages.charlotte.edu/tbenfie5/">CLT Website |</a><a href="https://www.linkedin.com/in/thomas-benfield-1b6293222/">| Linkedin |</a><a href="https://www.codecademy.com/profiles/TemboJembo">| CodeAcademy |</a><a href="https://www.freecodecamp.org/TemboJembo">| FreeCodeCamp |</a><a href="https://tembojembo.github.io/">| Github Course Page |</a><a href="https://tembojembo.github.io/">| Github Pages |</a><a href="https://github.com/TemboJembo">| Github</a>
+        <br><br>
+        Site Designed by <a href="benfieldsoftware.com/">Thomas Benfield of Terrifying Baboon</a> &copy;2023
+        <br>
+        <br>
+        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
+            <img style="border:0;width:88px;height:31px"
+            src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png"
+            alt="Validate webpage HTML!">
+        </a>
+    
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" />
+        </a>
+    </footer>
+</body>
+
+</html>
