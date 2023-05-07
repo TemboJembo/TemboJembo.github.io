@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <title>ITIS 3135-Thomas Benfield's Terrifying Baboon-Slideshow</title>
+    <link href="styles/default.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--https://coolors.co/2c6e49-4c956c-e5ffde-1b1b1e-654c4f -->
+    <!--https://coolors.co/2c6e49-4c956c-e5ffde-c19875-fb6107 -->
+</head>
+
+<body onload="hideAll()">
+
+    <header id="heading">
+    </header>
+    <main>
+        <h2>Slideshow of Good Images</h2>
+
+
+        <div id="1">
+            <img src="images/slideshow/20826636.jpg" alt="image1" width="350rem" height="350rem">
+        </div>
+        <div id="2">
+            <img src="images/slideshow/3f9bb07190084a72522cd5745a497bf8.png" alt="image1" width="350rem" height="350rem">
+        </div>
+        <div id="3">
+            <img src="images/slideshow/burger_sandwich_PNG96712.png" alt="image1" width="350rem" height="350rem">
+        </div>
+        <div id="4">
+            <img src="images/slideshow/image0_5.jpg" alt="image1" width="350rem" height="350rem">
+        </div>
+        <div id="5">
+            <img src="images/slideshow/smere.jpg" alt="image1" width="350rem" height="350rem">
+        </div>
+        <div id="6">
+            <img src="images/slideshow/Snapchat-1399827594.jpg" alt="image1" width="350rem" height="350rem">
+        </div>
+        <div id="7">
+            <h3>Gallery</h3>
+            <br>
+            <img src="images/slideshow/20826636.jpg" alt="image1" width="150rem" height="150rem" onclick="displaySlide(1)">
+            <img src="images/slideshow/3f9bb07190084a72522cd5745a497bf8.png" alt="image1" width="150rem" height="150rem" onclick="displaySlide(2)">
+            <img src="images/slideshow/burger_sandwich_PNG96712.png" alt="image1" width="150rem" height="150rem" onclick="displaySlide(3)">
+            <br>
+            <img src="images/slideshow/image0_5.jpg" alt="image1" width="150rem" height="150rem" onclick="displaySlide(4)">
+            <img src="images/slideshow/smere.jpg" alt="image1" width="150rem" height="150rem" onclick="displaySlide(5)">
+            <img src="images/slideshow/Snapchat-1399827594.jpg" alt="image1" width="150rem" height="150rem" onclick="displaySlide(6)">
+        </div>
+        
+
+
+        <button id="left" onclick="displayLast()"><img src="images/Left.png" alt="Left" height="50rem" width="50rem"></button>
+        <button id="right" onclick="displayNext()"><img src="images/Right.png" alt="Right" height="50rem" width="50rem"></button>
+    </main>
+    <br>
+    <footer id="footing">
+    </footer>
+    <script src="scripts/dynamic.js"></script>
+    <script src="scripts/slideshow.js"></script>
+</body>
+
+</html>
